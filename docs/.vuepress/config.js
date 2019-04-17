@@ -1,6 +1,8 @@
 module.exports = {
   title: '雷的交接文档',
-  port: 1995,
+  head: [
+    ['link', { rel: 'icon', href: '/mylogo.png' }]
+  ],
   markdown: {
     toc: {
       includeLevel: [2, 3]
@@ -12,8 +14,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: '/mylogo.png',
-    lastUpdated: '上次更新：',
+    lastUpdated: '上次更新',
     nav: [
       { text: '禅道', link: 'http://zentao.infisa.com.cn/zentaopms/www/index.php?m=user&f=login&referer=L3plbnRhb3Btcy93d3cvaW5kZXgucGhw' },
       { text: '工作邮箱', link: 'https://qiye.163.com/login/' },
