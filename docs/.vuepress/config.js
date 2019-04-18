@@ -60,6 +60,21 @@ module.exports = {
       {
         title: '智能诊断',
         path: '/content/iDiag/'
+      },
+      {
+        title: '关于打包',
+        path: '/content/package/',
+        collapsable: false,
+        children: [
+          {
+            title: 'PC 端打包',
+            path: '/content/package/pc'
+          },
+          {
+            title: 'Mobile 端打包',
+            path: '/content/package/mobile',
+          }
+        ]
       }
     ]
   }
