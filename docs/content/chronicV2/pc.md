@@ -132,13 +132,34 @@
     }
   ```
 
-  - **planFieldMap 方案渲染模版 & 按钮**
+- **planFieldMap 方案渲染模版 & 按钮**
 
-  - **planFieldMap 量表公式自动计算**
+- **量表公式自动计算**
 
-  `form.directive.js -> inputTextCalc`: 处理 CRF 中需要自动计算的表单项。
+`form.directive.js -> inputTextCalc`: 处理 CRF 中需要自动计算的表单项。
 
-  后台返回的数据中，具有 **`formulaName`** 属性的对象代表这个表单项需要自动计算。属性的值对应 `inputTextCalc` 指令里定义的计算规则。
+后台返回的数据中，具有 **`formulaName`** 属性的对象代表这个表单项需要自动计算。属性的值对应 `inputTextCalc` 指令里定义的计算规则。
+
+::: warning
+计算 model 元素的 `formulaName` 非空，而不是计算结果的 model 元素非空。
+
+例如：fev1 = feq + fvc，则返回的数据应是
+
+```js
+var data = {
+  feq: {
+    formula: '公式名'
+  },
+  fvc: {
+    formula: '公式名'
+  },
+  fev1: {
+    formula: null
+  }
+}
+
+```
+:::
 
   ```js
   // 计算公式对照表

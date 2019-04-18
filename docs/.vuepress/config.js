@@ -4,9 +4,6 @@ module.exports = {
     ['link', { rel: 'icon', href: '/mylogo.png' }]
   ],
   markdown: {
-    toc: {
-      includeLevel: [2, 3]
-    },
     lineNumbers: true,
     externalLinks: { 
       target: '_blank', 
@@ -36,11 +33,11 @@ module.exports = {
         collapsable: false,
         children: [
           {
-            title: 'PC 端',
+            title: '慢病 PC 端',
             path: '/content/chronicV2/pc'
           },
           {
-            title: 'Mobile 端',
+            title: '慢病 Mobile 端',
             path: '/content/chronicV2/mobile',
           }
         ]
