@@ -12,7 +12,7 @@
 ~~统一视图页面 (unitView.html) 可以看到患者统一视图的详细信息。（未开发）~~
 
 ### 1. 系统原型 & 业务流程
-[原型 & 业务流程](http://localhost:1995/chronicV1/prototype/)
+[原型 & 业务流程](http://localhost:8080/chronicV1/prototype/)
 
 ### 2. 项目状态
 本版本实际在院内部署过一次，至今已长久未有维护。很大程度上已被 2.0 版本所替代。
