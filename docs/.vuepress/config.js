@@ -30,7 +30,6 @@ module.exports = {
       {
         title: '慢病 V2.0',
         path: '/content/chronicV2/',
-        collapsable: false,
         children: [
           {
             title: '慢病 PC 端',
@@ -45,7 +44,6 @@ module.exports = {
       {
         title: '肾内科',
         path: '/content/snk/',
-        collapsable: false,
         children: [
           {
             title: '出入院登记',
@@ -58,13 +56,20 @@ module.exports = {
         ]
       },
       {
+        title: '取数',
+        path: '/content/extract/'
+      },
+      {
+        title: 'CRF 取数',
+        path: '/content/extract-crf/'
+      },
+      {
         title: '智能诊断',
         path: '/content/iDiag/'
       },
       {
         title: '关于打包',
         path: '/content/package/',
-        collapsable: false,
         children: [
           {
             title: 'PC 端打包',
