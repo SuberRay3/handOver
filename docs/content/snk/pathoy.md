@@ -6,7 +6,7 @@
 
 - [出入院登记 175](http://192.168.1.175:35200/pathology-src/#/list)
 
-病理医生 -> 账号：bingli  密码：bingli
+病理医生 -> 账号：bl  密码：bl
 
 临床医生 -> 账号：linchuang  密码：linchuang
 
