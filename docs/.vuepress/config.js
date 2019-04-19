@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/handOver/',
   title: '雷的交接文档',
   head: [
     ['link', { rel: 'icon', href: '/mylogo.png' }]
