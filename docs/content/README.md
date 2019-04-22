@@ -12,7 +12,8 @@
   - [出入院登记 (*admission-regist-src*)](./snk/admission)
   - [病理平台 (*pathology-src*)](./snk/pathoy)
   - 日报统计 (*daily-shift-src*) -- 目前在丰浩手中
-- [智能诊断](./iDiag) ![](https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%B7%B2%E5%BA%9F%E5%BC%83-red.svg) (*iDiagnosis-src*)
+- [异常视图（abnormal-view）](./abnormalView)
+- [智能诊断（iDiagnosis-src）](./iDiag) ![](https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%B7%B2%E5%BA%9F%E5%BC%83-red.svg) (*iDiagnosis-src*)
 
 #### 交接而来
 - [取数 (*extract-src*)](./extract)

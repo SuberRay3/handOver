@@ -65,6 +65,10 @@ module.exports = {
         path: '/content/extract-crf/'
       },
       {
+        title: '异常视图',
+        path: '/content/abnormalView/'
+      },
+      {
         title: '智能诊断',
         path: '/content/iDiag/'
       },
